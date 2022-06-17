@@ -11,7 +11,7 @@ for ( let i = 0 ; i<userArray.length-1 ; i++ )
 }
 let message;
 if(messageValidator==true){
-    message=console.log('mail presente')
+    message=alert('mail presente')
 }else{
-    message=console.log('mail assente')
+    message=alert('mail assente')
 }
